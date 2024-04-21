@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="body__shadow"></div>
+    <div class="container">
+      <div class="result">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <div class="score">
+          <div class="score__title">score</div>
+          <div class="score__result">0</div>
+        </div>
+      </div>
+
+      <div class="original">
+        <div class="original__center">
+          <div class="triangle">
+            <img src="./images/bg-triangle.svg" alt="" />
+          </div>
+          <div class="paper">
+            <div class="box">
+              <img src="./images/icon-paper.svg" alt="" />
+            </div>
+          </div>
+          <div class="scissors">
+            <div class="box">
+              <img src="./images/icon-scissors.svg" alt="" />
+            </div>
+          </div>
+          <div class="rock">
+            <div class="box">
+              <img src="./images/icon-rock.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="modal__compare__wrapper">
+
+          <div class="you_house__piked">
+            <div class="you__picked">You Picked</div>
+            <div class="you__house">The house picked</div>
+          </div>
+          <div class="modal__compare">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="rules">Rules</button>
+    <div class="modal__rules">
+      <div class="modal__header">
+        <div class="modal__title">Rules</div>
+        <img src="./images/icon-close.svg" alt="" />
+      </div>
+      <img src="./images/image-rules.svg" alt="">
+    </div>
+    <div class="result__game">
+      <div class="result__game__text"></div>
+      <button class="result__play__again">PLAY AGAIN</button>
+    </div>
+  </body>
+</html>
